@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping us improve the reviewed Learn corpus.
+        Thanks for helping improve Celest Learn.
 
         Please do not include credentials, private tenant data, customer content, or other secrets. We review suggestions before they become published guidance.
   - type: dropdown
