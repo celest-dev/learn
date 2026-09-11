@@ -6,7 +6,7 @@ Practical guidance for understanding, building, and operating AI agents across C
 - Connect your MCP client to `https://celest.dev/learn/mcp`
 - [Suggest an improvement](https://github.com/celest-dev/learn/issues/new?template=learn-feedback.yml)
 
-The Learn MCP uses Bing for public source discovery and Exa for source content inside `ask`. Ask returns two selected sources by default and at most six; each source includes up to 12,000 characters of actual source text and up to 20 useful links. The truncation marker appears only when source text reaches the 12,000-character bound; the link list is capped separately. Use `similar` to explore the curated Celest reading list. Open a cited source URL in a browser for full context. It cannot access your tenant or private records.
+The Learn MCP uses Exa for public source discovery and content, then a tool-free Azure Foundry selection pass inside `ask`. Ask returns two selected sources by default and at most six; each source includes up to 12,000 characters of actual source text and up to 20 useful links. The truncation marker appears only when source text reaches the 12,000-character bound; the link list is capped separately. Use `similar` to explore the curated Celest reading list. Open a cited source URL in a browser for full context. It cannot access your tenant or private records.
 
 ## Help improve Learn
 
