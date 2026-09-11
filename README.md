@@ -6,7 +6,7 @@ Practical guidance for understanding, building, and operating AI agents across C
 - Connect your MCP client to `https://celest.dev/learn/mcp`
 - [Suggest an improvement](https://github.com/celest-dev/learn/issues/new?template=learn-feedback.yml)
 
-The Learn MCP finds public guidance on `celest.dev` and `learn.microsoft.com` through Bing. Use `ask` to find cited sources, `read` to open a source as Markdown, and `similar` to explore the curated Celest reading list. It cannot access your tenant or private records.
+The Learn MCP uses Bing for public source discovery and Exa for source content inside `ask`. Ask returns two selected sources by default and at most six; each source includes up to 12,000 characters of actual source text and up to 20 useful links, with a truncation marker when a bound is reached. Use `similar` to explore the curated Celest reading list. Open a cited source URL in a browser for full context. It cannot access your tenant or private records.
 
 ## Help improve Learn
 
